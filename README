@@ -1,0 +1,8 @@
+Para descrigrar el mensaje y comprobar la firma :
+
+  $ gpg -o fichero --decrypt fichero.gpg
+
+
+Se  necesita estar en posesión de la clave privada de esoriano para descifrar
+y la clave pública de fj.gutierrezs para verificar la firma. (En los anillos 
+publico y privado de GPG).
